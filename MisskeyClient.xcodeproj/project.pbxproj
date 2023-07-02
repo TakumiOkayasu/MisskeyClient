@@ -14,6 +14,12 @@
 		7B69FE6A2A518DB200A7A6BB /* MisskeyClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE692A518DB200A7A6BB /* MisskeyClientTests.swift */; };
 		7B69FE742A518DB200A7A6BB /* MisskeyClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE732A518DB200A7A6BB /* MisskeyClientUITests.swift */; };
 		7B69FE762A518DB200A7A6BB /* MisskeyClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE752A518DB200A7A6BB /* MisskeyClientUITestsLaunchTests.swift */; };
+		7B69FE832A51919200A7A6BB /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE822A51919200A7A6BB /* Note.swift */; };
+		7B69FE842A51919200A7A6BB /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE822A51919200A7A6BB /* Note.swift */; };
+		7B69FE862A5197E800A7A6BB /* default_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B69FE852A5197E800A7A6BB /* default_icon.png */; };
+		7B69FE872A5197E800A7A6BB /* default_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B69FE852A5197E800A7A6BB /* default_icon.png */; };
+		7B69FE892A51985E00A7A6BB /* default_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B69FE882A51985E00A7A6BB /* default_icon.png */; };
+		7B69FE8A2A51985E00A7A6BB /* default_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B69FE882A51985E00A7A6BB /* default_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,9 @@
 		7B69FE6F2A518DB200A7A6BB /* MisskeyClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisskeyClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B69FE732A518DB200A7A6BB /* MisskeyClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisskeyClientUITests.swift; sourceTree = "<group>"; };
 		7B69FE752A518DB200A7A6BB /* MisskeyClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisskeyClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B69FE822A51919200A7A6BB /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		7B69FE852A5197E800A7A6BB /* default_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_icon.png; path = "../../../../Creative Cloud Files/1x/default_icon.png"; sourceTree = "<group>"; };
+		7B69FE882A51985E00A7A6BB /* default_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_icon.png; path = "../../../../Creative Cloud Files/1x/default_icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +107,7 @@
 				7B69FE5A2A518DB100A7A6BB /* ContentView.swift */,
 				7B69FE5C2A518DB200A7A6BB /* Assets.xcassets */,
 				7B69FE5E2A518DB200A7A6BB /* Preview Content */,
+				7B69FE822A51919200A7A6BB /* Note.swift */,
 			);
 			path = MisskeyClient;
 			sourceTree = "<group>";
@@ -121,6 +131,8 @@
 		7B69FE722A518DB200A7A6BB /* MisskeyClientUITests */ = {
 			isa = PBXGroup;
 			children = (
+				7B69FE852A5197E800A7A6BB /* default_icon.png */,
+				7B69FE882A51985E00A7A6BB /* default_icon.png */,
 				7B69FE732A518DB200A7A6BB /* MisskeyClientUITests.swift */,
 				7B69FE752A518DB200A7A6BB /* MisskeyClientUITestsLaunchTests.swift */,
 			);
@@ -231,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B69FE892A51985E00A7A6BB /* default_icon.png in Resources */,
+				7B69FE862A5197E800A7A6BB /* default_icon.png in Resources */,
 				7B69FE602A518DB200A7A6BB /* Preview Assets.xcassets in Resources */,
 				7B69FE5D2A518DB200A7A6BB /* Assets.xcassets in Resources */,
 			);
@@ -247,6 +261,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B69FE8A2A51985E00A7A6BB /* default_icon.png in Resources */,
+				7B69FE872A5197E800A7A6BB /* default_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +275,7 @@
 			files = (
 				7B69FE5B2A518DB100A7A6BB /* ContentView.swift in Sources */,
 				7B69FE592A518DB100A7A6BB /* MisskeyClientApp.swift in Sources */,
+				7B69FE832A51919200A7A6BB /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +293,7 @@
 			files = (
 				7B69FE742A518DB200A7A6BB /* MisskeyClientUITests.swift in Sources */,
 				7B69FE762A518DB200A7A6BB /* MisskeyClientUITestsLaunchTests.swift in Sources */,
+				7B69FE842A51919200A7A6BB /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
