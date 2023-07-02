@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B69FE592A518DB100A7A6BB /* MisskeyClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE582A518DB100A7A6BB /* MisskeyClientApp.swift */; };
+		7B69FE5B2A518DB100A7A6BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE5A2A518DB100A7A6BB /* ContentView.swift */; };
+		7B69FE5D2A518DB200A7A6BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B69FE5C2A518DB200A7A6BB /* Assets.xcassets */; };
+		7B69FE602A518DB200A7A6BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B69FE5F2A518DB200A7A6BB /* Preview Assets.xcassets */; };
+		7B69FE6A2A518DB200A7A6BB /* MisskeyClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE692A518DB200A7A6BB /* MisskeyClientTests.swift */; };
+		7B69FE742A518DB200A7A6BB /* MisskeyClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE732A518DB200A7A6BB /* MisskeyClientUITests.swift */; };
+		7B69FE762A518DB200A7A6BB /* MisskeyClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE752A518DB200A7A6BB /* MisskeyClientUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B69FE662A518DB200A7A6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B69FE4D2A518DB100A7A6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B69FE542A518DB100A7A6BB;
+			remoteInfo = MisskeyClient;
+		};
+		7B69FE702A518DB200A7A6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B69FE4D2A518DB100A7A6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B69FE542A518DB100A7A6BB;
+			remoteInfo = MisskeyClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B69FE552A518DB100A7A6BB /* MisskeyClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisskeyClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B69FE582A518DB100A7A6BB /* MisskeyClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisskeyClientApp.swift; sourceTree = "<group>"; };
+		7B69FE5A2A518DB100A7A6BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B69FE5C2A518DB200A7A6BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B69FE5F2A518DB200A7A6BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B69FE652A518DB200A7A6BB /* MisskeyClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisskeyClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B69FE692A518DB200A7A6BB /* MisskeyClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisskeyClientTests.swift; sourceTree = "<group>"; };
+		7B69FE6F2A518DB200A7A6BB /* MisskeyClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisskeyClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B69FE732A518DB200A7A6BB /* MisskeyClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisskeyClientUITests.swift; sourceTree = "<group>"; };
+		7B69FE752A518DB200A7A6BB /* MisskeyClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisskeyClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B69FE522A518DB100A7A6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B69FE622A518DB200A7A6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B69FE6C2A518DB200A7A6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B69FE4C2A518DB100A7A6BB = {
+			isa = PBXGroup;
+			children = (
+				7B69FE572A518DB100A7A6BB /* MisskeyClient */,
+				7B69FE682A518DB200A7A6BB /* MisskeyClientTests */,
+				7B69FE722A518DB200A7A6BB /* MisskeyClientUITests */,
+				7B69FE562A518DB100A7A6BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B69FE562A518DB100A7A6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B69FE552A518DB100A7A6BB /* MisskeyClient.app */,
+				7B69FE652A518DB200A7A6BB /* MisskeyClientTests.xctest */,
+				7B69FE6F2A518DB200A7A6BB /* MisskeyClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B69FE572A518DB100A7A6BB /* MisskeyClient */ = {
+			isa = PBXGroup;
+			children = (
+				7B69FE582A518DB100A7A6BB /* MisskeyClientApp.swift */,
+				7B69FE5A2A518DB100A7A6BB /* ContentView.swift */,
+				7B69FE5C2A518DB200A7A6BB /* Assets.xcassets */,
+				7B69FE5E2A518DB200A7A6BB /* Preview Content */,
+			);
+			path = MisskeyClient;
+			sourceTree = "<group>";
+		};
+		7B69FE5E2A518DB200A7A6BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B69FE5F2A518DB200A7A6BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B69FE682A518DB200A7A6BB /* MisskeyClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B69FE692A518DB200A7A6BB /* MisskeyClientTests.swift */,
+			);
+			path = MisskeyClientTests;
+			sourceTree = "<group>";
+		};
+		7B69FE722A518DB200A7A6BB /* MisskeyClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B69FE732A518DB200A7A6BB /* MisskeyClientUITests.swift */,
+				7B69FE752A518DB200A7A6BB /* MisskeyClientUITestsLaunchTests.swift */,
+			);
+			path = MisskeyClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B69FE542A518DB100A7A6BB /* MisskeyClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B69FE792A518DB200A7A6BB /* Build configuration list for PBXNativeTarget "MisskeyClient" */;
+			buildPhases = (
+				7B69FE512A518DB100A7A6BB /* Sources */,
+				7B69FE522A518DB100A7A6BB /* Frameworks */,
+				7B69FE532A518DB100A7A6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MisskeyClient;
+			productName = MisskeyClient;
+			productReference = 7B69FE552A518DB100A7A6BB /* MisskeyClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B69FE642A518DB200A7A6BB /* MisskeyClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B69FE7C2A518DB200A7A6BB /* Build configuration list for PBXNativeTarget "MisskeyClientTests" */;
+			buildPhases = (
+				7B69FE612A518DB200A7A6BB /* Sources */,
+				7B69FE622A518DB200A7A6BB /* Frameworks */,
+				7B69FE632A518DB200A7A6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B69FE672A518DB200A7A6BB /* PBXTargetDependency */,
+			);
+			name = MisskeyClientTests;
+			productName = MisskeyClientTests;
+			productReference = 7B69FE652A518DB200A7A6BB /* MisskeyClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B69FE6E2A518DB200A7A6BB /* MisskeyClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B69FE7F2A518DB200A7A6BB /* Build configuration list for PBXNativeTarget "MisskeyClientUITests" */;
+			buildPhases = (
+				7B69FE6B2A518DB200A7A6BB /* Sources */,
+				7B69FE6C2A518DB200A7A6BB /* Frameworks */,
+				7B69FE6D2A518DB200A7A6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B69FE712A518DB200A7A6BB /* PBXTargetDependency */,
+			);
+			name = MisskeyClientUITests;
+			productName = MisskeyClientUITests;
+			productReference = 7B69FE6F2A518DB200A7A6BB /* MisskeyClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B69FE4D2A518DB100A7A6BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7B69FE542A518DB100A7A6BB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7B69FE642A518DB200A7A6BB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7B69FE542A518DB100A7A6BB;
+					};
+					7B69FE6E2A518DB200A7A6BB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7B69FE542A518DB100A7A6BB;
+					};
+				};
+			};
+			buildConfigurationList = 7B69FE502A518DB100A7A6BB /* Build configuration list for PBXProject "MisskeyClient" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B69FE4C2A518DB100A7A6BB;
+			productRefGroup = 7B69FE562A518DB100A7A6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B69FE542A518DB100A7A6BB /* MisskeyClient */,
+				7B69FE642A518DB200A7A6BB /* MisskeyClientTests */,
+				7B69FE6E2A518DB200A7A6BB /* MisskeyClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B69FE532A518DB100A7A6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B69FE602A518DB200A7A6BB /* Preview Assets.xcassets in Resources */,
+				7B69FE5D2A518DB200A7A6BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B69FE632A518DB200A7A6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B69FE6D2A518DB200A7A6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B69FE512A518DB100A7A6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B69FE5B2A518DB100A7A6BB /* ContentView.swift in Sources */,
+				7B69FE592A518DB100A7A6BB /* MisskeyClientApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B69FE612A518DB200A7A6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B69FE6A2A518DB200A7A6BB /* MisskeyClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B69FE6B2A518DB200A7A6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B69FE742A518DB200A7A6BB /* MisskeyClientUITests.swift in Sources */,
+				7B69FE762A518DB200A7A6BB /* MisskeyClientUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B69FE672A518DB200A7A6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B69FE542A518DB100A7A6BB /* MisskeyClient */;
+			targetProxy = 7B69FE662A518DB200A7A6BB /* PBXContainerItemProxy */;
+		};
+		7B69FE712A518DB200A7A6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B69FE542A518DB100A7A6BB /* MisskeyClient */;
+			targetProxy = 7B69FE702A518DB200A7A6BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7B69FE772A518DB200A7A6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B69FE782A518DB200A7A6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B69FE7A2A518DB200A7A6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MisskeyClient/Preview Content\"";
+				DEVELOPMENT_TEAM = Z34CZV528L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hibiki.MisskeyClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B69FE7B2A518DB200A7A6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MisskeyClient/Preview Content\"";
+				DEVELOPMENT_TEAM = Z34CZV528L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hibiki.MisskeyClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B69FE7D2A518DB200A7A6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34CZV528L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hibiki.MisskeyClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisskeyClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MisskeyClient";
+			};
+			name = Debug;
+		};
+		7B69FE7E2A518DB200A7A6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34CZV528L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hibiki.MisskeyClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisskeyClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MisskeyClient";
+			};
+			name = Release;
+		};
+		7B69FE802A518DB200A7A6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34CZV528L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hibiki.MisskeyClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MisskeyClient;
+			};
+			name = Debug;
+		};
+		7B69FE812A518DB200A7A6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34CZV528L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hibiki.MisskeyClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MisskeyClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B69FE502A518DB100A7A6BB /* Build configuration list for PBXProject "MisskeyClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B69FE772A518DB200A7A6BB /* Debug */,
+				7B69FE782A518DB200A7A6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B69FE792A518DB200A7A6BB /* Build configuration list for PBXNativeTarget "MisskeyClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B69FE7A2A518DB200A7A6BB /* Debug */,
+				7B69FE7B2A518DB200A7A6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B69FE7C2A518DB200A7A6BB /* Build configuration list for PBXNativeTarget "MisskeyClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B69FE7D2A518DB200A7A6BB /* Debug */,
+				7B69FE7E2A518DB200A7A6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B69FE7F2A518DB200A7A6BB /* Build configuration list for PBXNativeTarget "MisskeyClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B69FE802A518DB200A7A6BB /* Debug */,
+				7B69FE812A518DB200A7A6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B69FE4D2A518DB100A7A6BB /* Project object */;
+}
