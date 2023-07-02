@@ -9,12 +9,11 @@ import SwiftUI
 
 struct Note: View {
     var body: some View {
-        VStack(alignment: .leading) {
+        HStack {
             Image("default_icon")
                 .clipShape(Circle())
-            
-            VStack(alignment: .leading) {
-                Text( "user name" )
+            Text( "user name" )
+            VStack {
                 Text( "note sample" )
             }
         }
