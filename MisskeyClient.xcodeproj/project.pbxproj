@@ -20,6 +20,8 @@
 		7B69FE8A2A51985E00A7A6BB /* default_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B69FE882A51985E00A7A6BB /* default_icon.png */; };
 		7B69FE8F2A5212DA00A7A6BB /* NoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE8E2A5212DA00A7A6BB /* NoteData.swift */; };
 		7B69FE902A5212DA00A7A6BB /* NoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE8E2A5212DA00A7A6BB /* NoteData.swift */; };
+		7B69FE952A52F07200A7A6BB /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE942A52F07200A7A6BB /* Note.swift */; };
+		7B69FE962A52F07200A7A6BB /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69FE942A52F07200A7A6BB /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 		7B69FE852A5197E800A7A6BB /* default_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_icon.png; path = "../../../../Creative Cloud Files/1x/default_icon.png"; sourceTree = "<group>"; };
 		7B69FE882A51985E00A7A6BB /* default_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_icon.png; path = "../../../../Creative Cloud Files/1x/default_icon.png"; sourceTree = "<group>"; };
 		7B69FE8E2A5212DA00A7A6BB /* NoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteData.swift; sourceTree = "<group>"; };
+		7B69FE942A52F07200A7A6BB /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,7 @@
 				7B69FE5C2A518DB200A7A6BB /* Assets.xcassets */,
 				7B69FE5E2A518DB200A7A6BB /* Preview Content */,
 				7B69FE8E2A5212DA00A7A6BB /* NoteData.swift */,
+				7B69FE942A52F07200A7A6BB /* Note.swift */,
 			);
 			path = MisskeyClient;
 			sourceTree = "<group>";
@@ -276,6 +280,7 @@
 				7B69FE5B2A518DB100A7A6BB /* ContentView.swift in Sources */,
 				7B69FE8F2A5212DA00A7A6BB /* NoteData.swift in Sources */,
 				7B69FE592A518DB100A7A6BB /* MisskeyClientApp.swift in Sources */,
+				7B69FE952A52F07200A7A6BB /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +299,7 @@
 				7B69FE742A518DB200A7A6BB /* MisskeyClientUITests.swift in Sources */,
 				7B69FE902A5212DA00A7A6BB /* NoteData.swift in Sources */,
 				7B69FE762A518DB200A7A6BB /* MisskeyClientUITestsLaunchTests.swift in Sources */,
+				7B69FE962A52F07200A7A6BB /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

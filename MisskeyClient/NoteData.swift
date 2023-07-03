@@ -15,3 +15,5 @@ struct NoteData {
     var displayName: String // Twitterと同じ
     var note: String        // ノート文字列
 }
+
+
